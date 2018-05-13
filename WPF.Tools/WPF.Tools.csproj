@@ -158,8 +158,8 @@
     <Compile Include="Validation\RowDataInfoValidationRule.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Libs\Tools\Savchin.Tools.csproj">
-      <Project>{2F1807E4-39A2-4F38-ADFC-6310A8443D90}</Project>
+    <ProjectReference Include="..\Core.Libs\Tools\Savchin.Tools.csproj">
+      <Project>{2f1807e4-39a2-4f38-adfc-6310a8443d90}</Project>
       <Name>Savchin.Tools</Name>
     </ProjectReference>
   </ItemGroup>
