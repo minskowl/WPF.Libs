@@ -49,6 +49,10 @@
     <Reference Include="PresentationFramework">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="Savchin.Tools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Savchin.Tools.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core">
@@ -142,6 +146,8 @@
     <Compile Include="Core\ObjectBase.cs" />
     <Compile Include="Core\UI.cs" />
     <Compile Include="Core\ViewModelBase.cs" />
+    <Compile Include="Core\WeakEventHandler.cs" />
+    <Compile Include="Core\WeakEventHandlerManager.cs" />
     <Compile Include="Data\BoolInvertionConverter.cs" />
     <Compile Include="Data\BoolToVisibilityConverter.cs" />
     <Compile Include="Data\DebugConverter.cs" />
@@ -174,12 +180,6 @@
     <Compile Include="Shapes\PolyStar.cs" />
     <Compile Include="Validation\CellDataInfoValidationRule .cs" />
     <Compile Include="Validation\RowDataInfoValidationRule.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Core.Libs\sources\Tools\Savchin.Tools.csproj">
-      <Project>{2F1807E4-39A2-4F38-ADFC-6310A8443D90}</Project>
-      <Name>Savchin.Tools</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

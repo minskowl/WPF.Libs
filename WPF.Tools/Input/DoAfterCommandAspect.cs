@@ -1,4 +1,6 @@
 using System;
+using Savchin.ComponentModel;
+using Savchin.Logging;
 using Savchin.Wpf.Interfaces;
 
 namespace Savchin.Wpf.Input

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Windows.Input;
+using Savchin.ComponentModel;
+using Savchin.Logging;
+using Savchin.Wpf.Core;
 using Savchin.Wpf.Interfaces;
 
 namespace Savchin.Wpf.Input
