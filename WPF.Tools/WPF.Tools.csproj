@@ -160,6 +160,20 @@
     <Compile Include="Drawing\LinearTransformation.cs" />
     <Compile Include="Drawing\Matrix.cs" />
     <Compile Include="Drawing\RotationalTransformation.cs" />
+    <Compile Include="Events\BackgroundEventSubscription.cs" />
+    <Compile Include="Events\DataEventArgs.cs" />
+    <Compile Include="Events\DelegateReference.cs" />
+    <Compile Include="Events\DispatcherEventSubscription.cs" />
+    <Compile Include="Events\EventAggregator.cs" />
+    <Compile Include="Events\EventBase.cs" />
+    <Compile Include="Events\EventSubscription.cs" />
+    <Compile Include="Events\IDelegateReference.cs" />
+    <Compile Include="Events\IEventAggregator.cs" />
+    <Compile Include="Events\IEventSubscription.cs" />
+    <Compile Include="Events\PubSubEvent.cs" />
+    <Compile Include="Events\Resources.Designer.cs" />
+    <Compile Include="Events\SubscriptionToken.cs" />
+    <Compile Include="Events\ThreadOption.cs" />
     <Compile Include="Imaging\ImageSourceHelper.cs" />
     <Compile Include="Input\AsyncCommand.cs" />
     <Compile Include="Input\AsyncCommandBase.cs" />
@@ -183,6 +197,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Events\Resources.resx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
